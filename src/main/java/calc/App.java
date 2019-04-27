@@ -7,7 +7,6 @@ public class App {
 
 		return 0;
 	}
-	
 	public int sub(int a, int b) {
 		return 0;
 	}
@@ -19,7 +18,7 @@ public class App {
 			return 1;
 		}
 		else {
-			return 0;
+			return 0 ;
 		}
 	}
 }
