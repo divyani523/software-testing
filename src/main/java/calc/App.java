@@ -17,7 +17,12 @@ public class App {
 		return 0;
 	}
 
+	public int div(int a, int b) {
+		if (b == 0) {
+			return 0;
+		} else {
+			return 0;
+		}
 	
 }
-
-	
+}
