@@ -31,4 +31,6 @@ public class AppTest {
 	public void testDiv() {
 		assertEquals(1, calc.div(2,2));
 	}
+	
+
 }
