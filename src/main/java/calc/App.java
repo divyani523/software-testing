@@ -5,28 +5,28 @@ public class App {
 		}
 	public int add(int a, int b){
 
-		return a+b;
+		return 0;
 	}
 	public int sub(int a, int b) {
-		return ();
+		return a-b;
 	}
 	public int mul(int a, int b) {
-		return ();
+		return a*b;
 	}
 	public int div(int a, int b) {
 		if(b==0) {
-			return ();
+			return 0;
 		}
 		else {
-			return ();
+			return a/b;
 		}
 		}
 	public Object fact(int a) {
 		// TODO Auto-generated method stub
-		return ());
+		return a*(a-1);
 	}
 	public int remaind(int a, int b) {
-		return ();
+		return a%b;
 	}
 }
 
