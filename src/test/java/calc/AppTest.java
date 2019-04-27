@@ -30,10 +30,10 @@ public class AppTest {
 	public void testDiv() {
 		assertEquals(1, calc.div(2,2));
 	}
-	@Test
+	/*@Test
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
-}
+}*/
 	public int remaind(int a, int b) {
 		return a%b;
 	}
