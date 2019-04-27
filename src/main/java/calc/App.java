@@ -6,10 +6,7 @@ public class App {
 	}
 
 	public int add(int a, int b) {
-		/*
-		 * System.out.println("In Add method of app"); return a+b;
-		 */
-		return 0;
+		  return a+b;
 	}
 
 	public int sub(int a, int b) {
