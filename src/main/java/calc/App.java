@@ -19,7 +19,7 @@ public class App {
 			return 1;
 		}
 		else {
-			return a/b;
+			return 0;
 		}
 	}
 }
