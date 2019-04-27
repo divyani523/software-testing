@@ -35,4 +35,11 @@ public class AppTest {
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 }
+	public int remaind(int a, int b) {
+		return a%b;
+	}
+       @Test
+   	public void testfact() {
+   		assertEquals(2, calc.fact(2));
+          }
 }
