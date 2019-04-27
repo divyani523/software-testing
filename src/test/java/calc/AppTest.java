@@ -10,10 +10,9 @@ public class AppTest {
 	private static App calc;
 	
 	@BeforeClass
-	public static void setup(){
+	public static void setup() {
 		calc = new App();
 	}
-	
 	@Test
 	public void testAdd() {
 		assertEquals(5, calc.add(3,2));
@@ -43,7 +42,7 @@ public class AppTest {
    		assertEquals(2, calc.fact(2));
           }
        public void testIntegrate() {
-    	   assertEquals (4, calc.sub(calc.add(4, 4), calc.div(8, 2)));
+    	   assertEquals (4, calc.sub(calc.add(4,4), calc.div(8, 2)));
        }
 }
 
