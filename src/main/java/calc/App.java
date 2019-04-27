@@ -7,7 +7,7 @@ public class App {
 
 		return 0;
 	}
-	public int sub(int a, int b) {
+	/*public int sub(int a, int b) {
 		return a-b;
 	}
 	public int mul(int a, int b) {
@@ -27,7 +27,7 @@ public class App {
 	}
 	public int remaind(int a, int b) {
 		return a%b;
-	}
+	}*/
 }
 
 	
