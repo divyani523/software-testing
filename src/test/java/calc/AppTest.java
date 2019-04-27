@@ -22,7 +22,7 @@ public class AppTest {
 	public void testSub() {
 		assertEquals(1, calc.sub(3,2));
 	}
-	/*@Test
+	@Test
 	public void testMul() {
 		assertEquals(6, calc.mul(3,2));
 	 }
@@ -43,7 +43,7 @@ public class AppTest {
           }
       public void testIntegrate() {
     	  assertEquals (4, calc.sub(calc.add(4, 4), calc.div(8, 2)));
-      }*/
+      }
 }
 
  
