@@ -41,9 +41,10 @@ public class AppTest {
    	public void testfact() {
    		assertEquals(2, calc.fact(2));
           }
-       public void testIntegrate() {
-    	   assertEquals (4, calc.sub(calc.add(4,4), calc.div(8, 2)));
-       }
+      public void testIntegrate() {
+    	  assertEquals (4, calc.sub(calc.add(4, 4), calc.div(8, 2)));
+      }
 }
 
-       }
+ 
+    
