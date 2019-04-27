@@ -18,14 +18,14 @@ public class AppTest {
 		assertEquals(5, calc.add(3,2));
 	}
 	
-	/*@Test
+	@Test
 	public void testSub() {
 		assertEquals(1, calc.sub(3,2));
 	}
-	@Test
+	/*@Test
 	public void testMul() {
 		assertEquals(6, calc.mul(3,2));
-	}
+	 }
 	@Test
 	public void testDiv() {
 		assertEquals(1, calc.div(2,2));
