@@ -16,6 +16,7 @@ public class AppTest {
 	
 	@Test
 	public void testAdd() {
+		System.out.println("Hello");
 		assertEquals(5, calc.add(3,2));
 	}
 	
